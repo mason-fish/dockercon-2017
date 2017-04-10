@@ -19,17 +19,20 @@ docker push store-demo-registry.docker.io/<YOUR_ORGANIZATION>/dc-banner-premium:
 ```
 
 `<YOUR_ORGANIZATION>` should match the organization name provided to you during the workshop.
- 
+
  # running
- 
+
 ```
 # run the free version
 docker run --rm store-demo-registry.docker.io/<YOUR_ORGANIZATION>/dc-banner-free:1.0
+```
 
+![cli banner](/assets/terminal-ss.png?raw=true "CLI Banner")
+
+```
 # run the premium version
 docker run --rm -p 80:80 store-demo-registry.docker.io/<YOUR_ORGANIZATION>/dc-banner-premium:1.0
 ```
+Visit `localhost` on your browser to see the premium version in action.
 
-Visit `localhost` to see the premium version in action.
-
-
+![webserver banner](/assets/webserver-ss.png?raw=true "Webserver Banner")
