@@ -2,7 +2,6 @@
 
 ---
 
-```
 ### Promote DockerCon 2017 with exciting ASCII art!
 
 > "I can't contain myself, I'm so excited!" - Austin, TX
@@ -20,4 +19,3 @@
 ### For more information
 
 Check out the [DockerCon 2017 Website](http://2017.dockercon.com) for more information about the conference.
-```
