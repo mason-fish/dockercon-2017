@@ -1,6 +1,5 @@
 # Plan Description
 
-```
 Display the Dockercon 2017 banner on the CLI
 
 # Installation Instructions
@@ -18,4 +17,3 @@ docker run --rm dockerstoretemp/storedemo/dc-banner-free:1.0
 ```
 
 You should see the DockerCon banner printed out. The container should exit by itself.
-```
